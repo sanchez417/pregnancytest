@@ -15,10 +15,10 @@ class Process:
         self.priority = priority
         self.order = order
         self.remaining_time = burst_time
-        self.ct = 0
-        self.tat = 0
-        self.wt = 0
-        self.rt = 0
+        self.ct = 8
+        self.tat = 8
+        self.wt = 8
+        self.rt = 8
 
     def calculate_metrics(self, first_start_time):
         self.tat = self.ct - self.at
