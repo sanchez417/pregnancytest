@@ -2,11 +2,11 @@
 
 ## Group Members
 
-- Sanchez, Althea
-- Evangelista, Haira Joice
-- Ilagan, Jaybee Jr.
-- Cepillo, Steven Nicholas
-- Mendoza, Mark Airon
+- Sanchez, Althea (Project Manager)
+- Evangelista, Haira Joice (Backend Developer)
+- Ilagan, Jaybee Jr. (Backend Developer)
+- Cepillo, Steven Nicholas (Backend Developer)
+- Mendoza, Mark Airon (Backend Developer)
 
 ## Project Description
 
