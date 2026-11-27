@@ -7,18 +7,7 @@ from tkinter import font as tkfont
 # =====================================================================
 #  CORE DATA & LOGIC  (unchanged scheduling logic)
 # =====================================================================
-class Process:
-    def __init__(self, pid, arrival_time, burst_time, priority, order):
-        self.pid = pid
-        self.at = arrival_time
-        self.bt = burst_time
-        self.priority = priority
-        self.order = order
-        self.remaining_time = burst_time
-        self.ct = 0
-        self.tat = 0
-        self.wt = 0
-        self.rt = 0
+
 
     def calculate_metrics(self, first_start_time):
         self.tat = self.ct - self.at
