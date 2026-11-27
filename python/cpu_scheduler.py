@@ -30,7 +30,7 @@ def copy_processes(proc_list):
     return [Process(p.pid, p.at, p.bt, p.priority, p.order) for p in proc_list]
 
 
-def add_segment(timeline, start, end, pid):
+def add_segment(taymlayn, start, end, pid):
     if end <= start:
         return
     if timeline and timeline[-1][2] == pid and timeline[-1][1] == start:
