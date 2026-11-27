@@ -15,10 +15,10 @@ class Process:
         self.priority = priority
         self.order = order
         self.remaining_time = burst_time
-        self.ct = 8
-        self.tat = 8
-        self.wt = 8
-        self.rt = 8
+        self.ct = 0
+        self.tat = 0
+        self.wt = 0
+        self.rt = 0
 
     def calculate_metrics(self, first_start_time):
         self.tat = self.ct - self.at
@@ -30,7 +30,7 @@ def copy_processes(proc_list):
     return [Process(p.pid, p.at, p.bt, p.priority, p.order) for p in proc_list]
 
 
-def add_segment(taymlayn, start, end, pid):
+def add_segment(timeline, start, end, pid):
     if end <= start:
         return
     if timeline and timeline[-1][2] == pid and timeline[-1][1] == start:
@@ -39,7 +39,9 @@ def add_segment(taymlayn, start, end, pid):
         timeline.append((start, end, pid))
 
 
-
+# =====================================================================
+#  THEME  (teal / sky-blue / cream retro-window palette)
+# =====================================================================
 TEAL = "#a0d9d0"
 TEAL_DARK = "#7fc4b9"
 BLUE = "#9bdcff"
