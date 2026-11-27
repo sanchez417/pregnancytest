@@ -2,7 +2,7 @@
 
 ## Group Members
 
-- Sanchez, Althea (Project Manager)
+- Sanchez, Althea (Frontend Manager)
 - Evangelista, Haira Joice (Backend Developer)
 - Ilagan, Jaybee Jr. (Backend Developer)
 - Cepillo, Steven Nicholas (Backend Developer)
