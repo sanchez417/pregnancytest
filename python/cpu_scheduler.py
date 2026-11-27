@@ -39,9 +39,7 @@ def add_segment(timeline, start, end, pid):
         timeline.append((start, end, pid))
 
 
-# =====================================================================
-#  THEME  (teal / sky-blue / cream retro-window palette)
-# =====================================================================
+
 TEAL = "#a0d9d0"
 TEAL_DARK = "#7fc4b9"
 BLUE = "#9bdcff"
